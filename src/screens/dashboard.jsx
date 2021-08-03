@@ -4,6 +4,7 @@ import Sidebar from "../components/sidebar";
 import Banner from "../components/banner";
 import InfoBar from "../components/infoBar";
 import "../assets/css/main.css";
+import Card from "../components/card";
 
 const Dashboard = () => {
   return (
@@ -18,6 +19,7 @@ const Dashboard = () => {
                 title="Drafting Authority - Dashboard"
                 icon="pe-7s-monitor icon-gradient bg-mean-fruit"
               />
+
               {/* <div className="row">
                 <div className="col-lg-3">
                   <InfoBar
